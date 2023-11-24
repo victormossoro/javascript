@@ -1,5 +1,6 @@
 body {
-    background-color: steelblue;
+    background: linear-gradient(356deg, rgba(2,0,36,1) 0%, rgba(52,9,121,1) 35%, rgb(3, 175, 209) 100%);
+    background-attachment: fixed;
     font: normal 15pt Arial;
 }
 
@@ -10,9 +11,9 @@ header {
 
 section {
     background-color: white;
-    border-radius: 15px;
+    border-radius: 20px;
     padding: 15px;
-    width: 800px;
+    width: 600px;
     margin: auto;
     box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.144);
 }
