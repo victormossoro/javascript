@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula #11.2 - Nacionalidade</title>
+    <style>
+        body {
+            background-color: brown;
+            font: normal 18pt Arial;
+            font-style: italic;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sua Nacionalidade</h1>
+    Qual o seu país: <input type="text" name="txtnac" id="txtnac" placeholder="digite seu país">
+    <input type="button" value="Verificar" onclick="calcular()">
+    <div id="res">
+
+    </div>
+    <script>
+        function calcular() {
+            var txtn = document.querySelector('input#txtnac')
+            var res = document.querySelector('div#res')
+            var país = (txtnac.value)
+            
+            if (país == 'Brasil') {
+                res.innerHTML = `<p>Você é Brasileiro.</p>`
+            }
+            else {
+                res.innerHTML = `<p>Você é Estrangeiro.</p>`
+            }
+            res.innerHTML += `<p>Sua nacionalidade é <strong>${país}</strong></p>`
+        }
+        </script>
+</body>
+</html>
+
