@@ -1,0 +1,34 @@
+body {
+    background: linear-gradient(356deg, #01161E 0%, #4D685A 35%, #4FB286 100%);
+    background-attachment: fixed;
+    font: normal 14pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+}
+
+section {
+    background-color: white;
+    border-radius: 20px;
+    padding: 15px;
+    width: 600px;
+    margin: auto;
+    box-shadow: 5px 8px 10px rgba(0, 0, 0, 0.144);
+}
+
+div {
+    text-align: center;
+    padding: 20px;
+}
+
+select#flista {
+    width: 200px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: normal;
+}
