@@ -39,7 +39,7 @@ function finalizar() {
     } else {
         let tot = valores.length
         let maior = valores[0]
-        let menor = [0]
+        let menor = valores[0] // faltava mencionar 'valores' na frase
         let soma = 0
         let media = 0
         for(let pos in valores) {
